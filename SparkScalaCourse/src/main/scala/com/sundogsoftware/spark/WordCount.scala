@@ -19,8 +19,10 @@ object WordCount {
     val input = sc.textFile("data/book.txt")
     
     // Split into words separated by a space character
-    val words = input.flatMap(x => x.split(" "))
-    
+    val words = input.map(x => x.split(" "))
+
+    val words2 = input.flatMap(x => x.split(" "))
+
     // Count up the occurrences of each word
     val wordCounts = words.countByValue()
     

@@ -34,7 +34,7 @@ object MinTemperatures {
     
     // Convert to (stationID, temperature)
     val stationTemps = minTemps.map(x => (x._1, x._3.toFloat))
-    
+
     // Reduce by stationID retaining the minimum temperature found
     val minTempsByStation = stationTemps.reduceByKey( (x,y) => min(x,y))
     
@@ -47,6 +47,5 @@ object MinTemperatures {
        val formattedTemp = f"$temp%.2f F"
        println(s"$station minimum temperature: $formattedTemp") 
     }
-      
   }
 }
