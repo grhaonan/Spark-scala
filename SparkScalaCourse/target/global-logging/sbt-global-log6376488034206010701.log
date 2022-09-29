@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Spark.range(0, 5), None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mbuild source files have changed[0m
+[0m[[0m[33mwarn[0m] [0m[0mmodified files: [0m
+[0m[[0m[33mwarn[0m] [0m[0m  /Users/dustinl/Documents/Projects/Spark-scala/SparkScalaCourse/build.sbt[0m
+[0m[[0m[33mwarn[0m] [0m[0mApply these changes by running `reload`.[0m
+[0m[[0m[33mwarn[0m] [0m[0mAutomatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.[0m
+[0m[[0m[33mwarn[0m] [0m[0mDisable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ID character[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: Spark[0m
+[0m[[0m[31merror[0m] [0m[0mExpected project ID[0m
+[0m[[0m[31merror[0m] [0m[0mExpected configuration[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected configuration ident[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '/'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: Spark (similar: package, fork)[0m
+[0m[[0m[31merror[0m] [0m[0mSpark.range(0, 5)[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
